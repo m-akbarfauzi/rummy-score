@@ -124,7 +124,7 @@ class _ConfigPageState extends State<ConfigPage> {
                   subtitle: const Text('Players passed by another (who didn\'t start negative) reset to 0.'),
                   value: _isKesalipEnabled,
                   onChanged: (val) => setState(() => _isKesalipEnabled = val),
-                  activeTrackColor: Colors.teal.withOpacity(0.5),
+                  activeTrackColor: Colors.teal.withValues(alpha: 0.5),
                   activeThumbColor: Colors.teal,
                 ),
               ),
